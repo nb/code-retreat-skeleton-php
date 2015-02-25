@@ -1,5 +1,9 @@
 {
     "require": {
         "phpunit/phpunit": "~4.5"
-    }
+    },
+	"scripts": {
+		"test": "vendor/bin/phpunit life.php",
+		"reset": "git reset HEAD --hard && git clean -f -d"
+	}
 }
